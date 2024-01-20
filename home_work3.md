@@ -22,7 +22,7 @@ export debMultiarch="$(dpkg-architecture --query DEB_BUILD_MULTIARCH)"
   --with-libdir="/lib/${debMultiarch}/" \
   --with-config-file-path="${PHP_INI_DIR}" \
   --with-config-file-scan-dir="${PHP_INI_DIR}/conf.d" \
-   --disable-cgi \
+  --disable-cgi \
   --enable-ftp \
   --enable-mbstring \
   --enable-mysqlnd \
