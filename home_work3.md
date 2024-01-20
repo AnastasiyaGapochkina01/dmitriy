@@ -59,3 +59,5 @@ make install
 php -v
 ```
 должно вывести версию установленного php
+
+!!! ЕСЛИ ```docker exec -it build_from_sorce /bin/bash ``` ругается что нет такого контейнера, то запустить его, выполнив ``` docker run -d -it --name build_from_sorce test_php```
