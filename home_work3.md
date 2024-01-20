@@ -35,7 +35,7 @@ export debMultiarch="$(dpkg-architecture --query DEB_BUILD_MULTIARCH)"
   --with-curl=/usr/local \
   --with-openssl=/usr/local/ssl \
   --with-readline \
-   --with-recode \
+  --with-recode \
   --with-zlib
 ```
 6) Выполнить сборку
